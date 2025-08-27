@@ -104,12 +104,6 @@ X = df.drop(columns=safe_drop_cols + ['Loan_Status_Code'], errors='ignore')
 y = df['Loan_Status_Code']
 X = X.fillna(0)
 
-# Optional: Feature Selection
-selector = SelectKBest(score_func=f_classif, k=100)
-X_selected = selector.fit_transform(X, y)
-selected_cols = X.columns[selector.get_support()]
-X = pd.DataFrame(X_selected, columns=selected_cols)
-
 # Step 15: Train-Test Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 
