@@ -31,7 +31,7 @@ The goal is to:
 | Category         | Tools Used                                                                 |
 |------------------|----------------------------------------------------------------------------|
 | Language         | Python 3.10+                                                               |
-| Libraries        | pandas, numpy, seaborn, matplotlib, scikit-learn                           |
+| Libraries        | pandas, numpy, seaborn, matplotlib                                         |
 | ML Models        | Random Forest, Logistic Regression, Decision Tree, SVM, Gradient Boosting  | 
 | Notebook/Script  | .ipynb and .py supported                                                   | 
 
