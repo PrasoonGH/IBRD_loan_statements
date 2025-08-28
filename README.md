@@ -51,8 +51,6 @@ The goal is to:
 
 * Scaled numerical features using StandardScaler
 
-* Feature selection with SelectKBest (top 100)
-
 ### ✅ Model Training
 
 * Trained and evaluated the following classifiers:
